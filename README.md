@@ -27,6 +27,7 @@ You will build the following functionality:
   - [ ] If the client is eligible for a loan, display a message indicating the loan amounts and rates available.
   - [ ] If the client is not eligible, display a message indicating they were declined.
 
+![UI](img/bank-ui.jpg)
 
 ## Exercise Data
 
