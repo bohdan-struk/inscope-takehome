@@ -25,8 +25,6 @@ export default () => {
             });
         } catch (e) {
             console.error(e)
-        } finally {
-
         }
     }
     const reset = () => {

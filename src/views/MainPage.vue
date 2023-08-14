@@ -22,7 +22,7 @@
         <div>
           <div v-if="isRequestFailed && !isRequestPending">
             <div class="error-text">An Error Occurred</div>
-            <button @click="getClients(currentPage)"
+            <button @click="getClients()"
                     class="custom-button">
               <span
                 class="custom-button-arrow"></span>
