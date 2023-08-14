@@ -115,22 +115,36 @@ For example, a client with a balance of $123.45, with 3 in-period transactions w
 
 # Getting Started
 
-This is a placeholder for instructions on how to run your implementation.
+## Build Setup
+
+``` bash
+# pull changes from repository
+git pull
+
+# checkout to "development" branch
+git checkout development 
+
+# install dependencies
+npm install
+
+# run application on Local: http://127.0.0.1:3000/
+npm run dev
+```
 
 # Follow-Up Questions
 
   1. Describe which task you found most difficult in the implementation, and why.
-   - Overall, the task was fairly easy and quick to implement, I've spent around 2 hours on coding and added a few features for better usability. The main goal for me was to grasp how backend works in regards to the calculations I did on front end.
+    - Overall, the task was fairly easy and quick to implement, I've spent around 2 hours on coding and added a few features for better usability. The main goal for me was to grasp how backend works in regards to the calculations I did on front end.
   2. What lead you to choose these libraries or frameworks you used in your implementation?
-  - As it is a small project I decided to use Vue + Vite + Tailwind. Vue allows to implement the project in fast way, and Vite provides fast development experience for web projects. Tailwind css library is very simple and can reduce time spent for styling by at least 3 times.
+    - As it is a small project I decided to use Vue + Vite + Tailwind. Vue allows to implement the project in fast way, and Vite provides fast development experience for web projects. Tailwind css library is very simple and can reduce time spent for styling by at least 3 times.
   3. If there were no time restrictions for this exercise, what improvements would you make in the following areas:
       - Implementation
       - User Experience
       - Accessibility
      
-   - I would use more technologies to make project even faster and more structured. I would add caching and lazy-loading which can improve the project speed. I added pagination and sorting in the project, which improved UX significantly. One additional thing that I would improve is user design and responsiveness. 
+      I would use more technologies to make project even faster and more structured. I would add caching and lazy-loading which can improve the project speed. I added pagination and sorting in the project, which improved UX significantly. One additional thing that I would improve is user design and responsiveness. 
   4. If you were asked to refactor this exercise so it could be display historical data, what changes would you make?
-   - I would create a separate component/page for client description where I could implement historic data related to each client and would use LocalStorage to store that data. I would also discuss with the backend team the possibility of creating API endpoints and data validation. My response would heavily depend on the type of historical data provided: balances, transactions, eligibility, etc. 
+    - I would create a separate component/page for client description where I could implement historic data related to each client and would use LocalStorage to store that data. I would also discuss with the backend team the possibility of creating API endpoints and data validation. My response would heavily depend on the type of historical data provided: balances, transactions, eligibility, etc. 
   5. Assume you are provided with a unique identifier for loan application submitted by the clerks. You are tasked with storing requests in persistent storage so bank managers can track patterns in loan applications. Give a high level overview of how you would implement this feature.
 
 This would require to divide tasks among backend and frontend: 
